@@ -5,6 +5,7 @@ import edu.uniquindio.co.turnoslaboratorio.model.Laboratorio;
 
 public class Main {
     public static void main(String[] args) {
+        //No se puede realizar con un Queue, ya que tiene métodos para ingresar en la parte preferencial.
         ModelFactory modelFactory = new ModelFactory();
         Laboratorio laboratorio = modelFactory.getLaboratorio();
         laboratorio.imprimirFila();
