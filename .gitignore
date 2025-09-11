@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar archivos compilados de Java
+*.class
+
+# Ignorar la carpeta de compilación
+/target/
+
